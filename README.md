@@ -1,30 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Тестовое заданиe для Brave-developers
 
-## Getting Started
+![alt text](screenshots/main.png "Терминал оплаты")
 
-First, run the development server:
+### Стэк
+* Next.js
+* React
+* Typescript
+* Styled-Components
+* Formik
+* react-input-mask
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Техническое задание
+В приложении должен быть главный экран со списком операторов - МТС, Билайн,
+Мегафон. Список должен быть расширяем. По клику на оператора переходить на
+экран формы оплаты.
+Экран с формой оплаты должен содержать выбранного оператора, поле ввода
+телефона с маской и валидацией, и поле ввода суммы в рублях с маской и
+валидацией (мин 1 и макс 1000 руб). Кнопка подтверждения, которая ожидает ответа
+от сервера. После ответа показывается сообщение об успехе или об ошибке. В случае
+успеха переходим на основной экран.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Стэк: TypeScript, Next.js, React и React Hooks, Styled-Components.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+* Обращение к API должны быть эмулированы. Ответы должны быть успешные
+или неуспешные в случайном порядке.
 
-## Learn More
+* Дизайн и верстка на ваше усмотрение, но сделайте красиво и добавьте
+анимации
 
-To learn more about Next.js, take a look at the following resources:
+* При этом верстка должна быть адаптивной и поддерживать различные размеры
+экранов, включая мобильные.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
