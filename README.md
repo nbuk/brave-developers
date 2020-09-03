@@ -2,6 +2,8 @@
 
 ![alt text](screenshots/main.png "Терминал оплаты")
 
+[Демо](https://brave-developers.herokuapp.com/)
+
 ### Стэк
 * Next.js
 * React
